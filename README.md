@@ -1,5 +1,6 @@
 # snappy-conduit
 
+Conduit bindings for snappy
 
 Authors
 -------

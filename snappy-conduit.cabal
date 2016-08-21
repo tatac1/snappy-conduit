@@ -2,14 +2,14 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                snappy-conduit
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Conduit bindings for Snappy (see snappy package)
 description:         Conduit bindings for Snappy (see snappy package)
 license:             MIT
 license-file:        LICENSE
 author:              Toru Tomita
 maintainer:          toru.tomita@gmail.com
-copyright:           Copyright (c) 2015, Toru Tomita
+copyright:           Copyright (c) 2016, Toru Tomita
 category:            Codec
 Homepage:            http://github.com/tatac1/snappy-conduit/
 bug-reports:         http://github.com/tatac1/snappy-conduit/issues
@@ -22,7 +22,7 @@ library
                    , Codec.Compression.Snappy.Lazy.Conduit   
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.7 && <4.9
+  build-depends:       base >=4.7 && <5.0
                      , snappy >= 0.2 && < 0.3
                      , conduit >= 1.0 && < 1.3 
                      , bytestring >= 0.10 && < 0.11
